@@ -1,9 +1,4 @@
-<IfModule mod_rewrite.c>
-
-   RewriteEngine On
-
-   RewriteCond %{REQUEST_FILENAME}  -f [OR]
-   RewriteCond %{REQUEST_FILENAME} !-f
-   RewriteRule ^(.*)$ router.php [L,QSA]
-
-</IfModule>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . router.php [L]
