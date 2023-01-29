@@ -1,0 +1,47 @@
+<?php /* Smarty version 3.1.27, created on 2023-01-27 10:42:42
+         compiled from "/home/multistream6/domains/keymining.ltd/public_html/app/tmpl/header.tpl" */ ?>
+<?php
+/*%%SmartyHeaderCode:168488124563d3aaa26b00c8_31805169%%*/
+if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '0c3de5a33aa1a9bfbfdb99322da6f3c803b0ee0e' => 
+    array (
+      0 => '/home/multistream6/domains/keymining.ltd/public_html/app/tmpl/header.tpl',
+      1 => 1578467872,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '168488124563d3aaa26b00c8_31805169',
+  'variables' => 
+  array (
+    'settings' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => '3.1.27',
+  'unifunc' => 'content_63d3aaa26bb4c9_28471091',
+),false);
+/*/%%SmartyHeaderCode%%*/
+if ($_valid && !is_callable('content_63d3aaa26bb4c9_28471091')) {
+function content_63d3aaa26bb4c9_28471091 ($_smarty_tpl) {
+if (!is_callable('smarty_modifier_myescape')) require_once '/home/multistream6/domains/keymining.ltd/public_html/app/inc/libs/smarty3/plugins/modifier.myescape.php';
+
+$_smarty_tpl->properties['nocache_hash'] = '168488124563d3aaa26b00c8_31805169';
+echo $_smarty_tpl->getSubTemplate ("logo.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
+?>
+
+
+<div class="subpage-title">
+	<div class="subpage-inner-title container">
+		
+		Welcome to <span><?php echo smarty_modifier_myescape($_smarty_tpl->tpl_vars['settings']->value['site_name']);?>
+</span>
+		
+	</div>
+</div>
+
+
+<div class="subpage-container container"><?php }
+}
+?>
