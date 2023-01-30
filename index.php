@@ -35,50 +35,10 @@
     </div>
 </div>
 <div class="main-wrapper">
-    <div id="top-bar" class="header-style-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-3">
-                    <div class="top-bar-info">
-                        <div class=" goog-te-gadget" id="google_translate_element_id"></div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-xs-12">
-                    <ul class="top-social-icon">
-
-
-                        <a href='indexc30b.html?a=login' class='butn theme11'><span><strong>LOGIN</strong></span></a>
-                        <a href='indexcca3.html?a=signup' class='butn theme'><span><strong>OPEN ACCOUNT</strong></span></a>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <header class="header-style1 menu_area-light">
-        <div class="navbar-default border-color-light-white">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-12">
-                        <div class="menu_area alt-font">
-                            <nav class="navbar navbar-expand-lg navbar-light no-padding">
-                                <div class="navbar-header navbar-header-custom">
-                                    <a href="index.html" class="navbar-brand logo2"><img id="logo" src="secured/img/logos/logo-2-light.png" alt="logo"></a>
-                                </div>
-                                <div class="navbar-toggler"></div>
-                                <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
-                                    <li><a href="indexbc14.html?a=home">Home</a></li>
-                                    <li><a href="indexe47e.html?a=about">About</a></li>
-                                    <li><a href="indexe47e.html?a=about#faq">FAQ</a></li>
-                                    <li><a href="index15a0.html?a=support">Contact</a></li>
-
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php
+        require_once ('top.bar.php');
+        require_once ('nav.php');
+    ?>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <section class="bg-img banner-section cover-background full-screen" data-overlay-dark="6"
              data-background="img/slider/slide13.jpg">
@@ -91,7 +51,7 @@
                         Our knowledgeable professionals and industry
                         leading tools are united to do one thing: make
                         you a smarter, more profitable investor.</p>
-                    <div class="margin-30px-top sm-margin-25px-top"><a href="indexcca3.html?a=signup"
+                    <div class="margin-30px-top sm-margin-25px-top"><a href="signup.php"
                                                                        class="butn theme white-hover"><span>Open A Free Account</span></a>
                     </div>
                 </div>
@@ -150,7 +110,7 @@
                                 <p class="no-margin">We're a company trusted by many from around over 13 countries around
                                     the world... </p>
                             </div>
-                            <a href="indexe47e.html?a=about" class="readmore">read more</a>
+                            <a href="about.php" class="readmore">read more</a>
                         </div>
                     </div>
                 </div>
@@ -167,8 +127,8 @@
 </span>
                     </h4>
                     <ul class="top-social-icon">
-                        <a href='indexcca3.html?a=signup' class='butn theme'><span><strong>Open Account</strong></span></a>
-                        <a href='indexe47e.html?a=about' class='butn theme11'><span><strong>Learn More</strong></span></a>
+                        <a href='signup.php' class='butn theme'><span><strong>Open Account</strong></span></a>
+                        <a href='about.php' class='butn theme11'><span><strong>Learn More</strong></span></a>
                     </ul>
                 </div>
             </div>
@@ -257,7 +217,7 @@
                             <li>#1 Portfolio Manager</li>
                             <li>#1 Best Perfoming Assets</li>
                         </ul>
-                        <a class="butn theme margin-20px-top medium" href="indexcca3.html?a=signup"><span>Start Investing</span></a>
+                        <a class="butn theme margin-20px-top medium" href="signup.php"><span>Start Investing</span></a>
                     </div>
                 </div>
             </div>
@@ -289,7 +249,7 @@
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="indexcca3.html?a=signup" class="butn medium"><span>INVEST NOW</span></a>
+                            <a href="signup.php" class="butn medium"><span>INVEST NOW</span></a>
                         </div>
                     </div>
                 </div>
@@ -313,7 +273,7 @@
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="indexcca3.html?a=signup" class="butn theme medium"><span>INVEST NOW</span></a>
+                            <a href="signup.php" class="butn theme medium"><span>INVEST NOW</span></a>
                         </div>
                     </div>
                 </div>
@@ -337,7 +297,7 @@
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="indexcca3.html?a=signup" class="butn medium"><span>INVEST NOW</span></a>
+                            <a href="signup.php" class="butn medium"><span>INVEST NOW</span></a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +321,7 @@
                             </ul>
                         </div>
                         <div class="order">
-                            <a href="indexcca3.html?a=signup" class="butn medium"><span>INVEST NOW</span></a>
+                            <a href="signup.php" class="butn medium"><span>INVEST NOW</span></a>
                         </div>
                     </div>
                 </div>
@@ -370,7 +330,7 @@
         <div class="section-heading no-margin-bottom">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="indexcca3.html?a=signup" class="butn111 big">START NOW</a>
+                    <a href="signup.php" class="butn111 big">START NOW</a>
                 </div>
             </div>
         </div>
@@ -1164,14 +1124,14 @@
                     <div class="row">
                         <div class="col-md-6 no-padding-right xs-padding-15px-right">
                             <ul class="footer-list-style3 xs-margin-5px-bottom">
-                                <li><a href="indexe47e.html?a=about">About Us</a></li>
-                                <li><a href="indexe47e.html?a=about#faq">FAQs</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="about.php#faq">FAQs</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 no-padding-right xs-padding-15px-right">
                             <ul class="footer-list-style3">
-                                <li><a href="indexcca3.html?a=signup">Open Account</a></li>
-                                <li><a href="indexc30b.html?a=login">Login</a></li>
+                                <li><a href="signup.php">Open Account</a></li>
+                                <li><a href="login.php">Login</a></li>
                             </ul>
                         </div>
                     </div>
